@@ -18,7 +18,7 @@
         chatContainer.appendChild(iframe);
 
         var fab = document.createElement('button');
-        fab.innerHTML = '<img src="https://your-icon-url" alt="Chat" style="width: 30px; height: 30px;">'; // Replace with your chat icon URL
+        fab.innerHTML = '<img src="https://api.iconify.design/mdi/chat.svg" alt="Chat" style="width: 30px; height: 30px;">'; // Use Iconify URL for chat icon
         fab.style.position = 'fixed';
         fab.style.bottom = '20px';
         fab.style.right = '20px';
@@ -37,7 +37,7 @@
         };
         document.body.appendChild(fab);
     };
-    v.src = 'https://your-cdn-url/embed.js'; // Replace with the URL where you host this script
+    v.src = 'https://thefragrancetailor.github.io/chatbot-embed/embed.js'; // Replace with the URL where you host this script
     v.type = 'text/javascript';
     s.parentNode.insertBefore(v, s);
 })(document, 'script');
